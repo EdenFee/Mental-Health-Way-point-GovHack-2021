@@ -1,0 +1,29 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-govhack-dev-102147-authRole",
+            "UnauthRoleArn": "arn:aws:iam::596999060570:role/amplify-govhack-dev-102147-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::596999060570:role/amplify-govhack-dev-102147-authRole",
+            "Region": "ap-southeast-2",
+            "DeploymentBucketName": "amplify-govhack-dev-102147-deployment",
+            "UnauthRoleName": "amplify-govhack-dev-102147-unauthRole",
+            "StackName": "amplify-govhack-dev-102147",
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:596999060570:stack/amplify-govhack-dev-102147/c75c5a90-0215-11ec-8991-0241ae127ada",
+            "AmplifyAppId": "d37me77xm1k14c"
+        }
+    },
+    "hosting": {
+        "amplifyhosting": {
+            "service": "amplifyhosting",
+            "providerPlugin": "awscloudformation",
+            "type": "manual",
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/amplify-govhack-dev-102147-deployment/amplify-cfn-templates/hosting/amplifyhosting-template.json",
+                "logicalId": "hostingamplifyhosting"
+            },
+            "lastPushTimeStamp": "2021-08-21T09:00:55.728Z",
+            "output": {},
+            "lastPushDirHash": "/+VZ33seFFqAr6wbtptwbINUfSA="
+        }
+    }
+}
