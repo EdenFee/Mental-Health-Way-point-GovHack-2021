@@ -4,6 +4,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import client from "./apollo-client";
 import Routes from "./Router";
+import '@fontsource/roboto';
 
 import { ApolloProvider } from "@apollo/client";
 

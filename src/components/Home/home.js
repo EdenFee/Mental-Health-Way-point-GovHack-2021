@@ -3,6 +3,8 @@ import "./nicepage.css";
 import { useEffect, useState } from "react";
 import Health from "./health";
 import { Chart } from "../Chart";
+import { SimpleAccordion } from "../simpleaccordian";
+import Button from "@material-ui/core/Button";
 
 function Home() {
   const [chartData, setChartData] = useState({});
@@ -31,13 +33,93 @@ function Home() {
         className="u-align-center u-black u-clearfix u-section-1"
         id="carousel_5e69"
       >
-        <div className="healthChart">
+        <div
+          class="chart-container"
+          styles="position: relative; height:40vh; width:40vw"
+        >
           <Chart
             chartData={chartData}
             title="Common New Zealand Struggles"
             yTitle="Estimated Number"
           />
         </div>
+    
+          <h2 className="u-align-center u-custom-font u-font-merriweather u-text u-text-palette-2-base u-text-1">
+            Struggling with depression?
+          </h2>
+          <details>
+            <summary>Know more</summary>
+            <blockquote className="u-align-center u-text u-text-grey-10 u-text-2">
+              Nine tenths of callers feel like they have been helped, half say
+              their problem was less severe at follow up.
+            </blockquote>
+            <div className="u-container-style u-group u-group-1">
+              <div className="u-container-layout">
+                <a
+                  href="https://nicepage.com/html-website-builder"
+                  className="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-white u-btn-1"
+                >
+                  <span className="u-icon">
+                    <svg
+                      className="u-svg-content"
+                      viewBox="0 0 405.333 405.333"
+                      x="0px"
+                      y="0px"
+                      styles="width: 1em; height: 1em;"
+                    >
+                      <path d="M373.333,266.88c-25.003,0-49.493-3.904-72.704-11.563c-11.328-3.904-24.192-0.896-31.637,6.699l-46.016,34.752    c-52.8-28.181-86.592-61.952-114.389-114.368l33.813-44.928c8.512-8.512,11.563-20.971,7.915-32.64    C142.592,81.472,138.667,56.96,138.667,32c0-17.643-14.357-32-32-32H32C14.357,0,0,14.357,0,32    c0,205.845,167.488,373.333,373.333,373.333c17.643,0,32-14.357,32-32V298.88C405.333,281.237,390.976,266.88,373.333,266.88z"></path>
+                    </svg>
+                  </span>
+                  &nbsp;+1 (234) 567-8910
+                </a>
+                <p className="u-align-center u-text u-text-default u-text-grey-10 u-text-3">
+                  Example helpline:<br></br>
+                </p>
+              </div>
+            </div>
+            <h2 className="u-align-center u-text u-text-grey-10 u-text-4">
+              Lifestyle changes<br></br>
+            </h2>
+          </details>
+          <h2 className="u-align-center u-custom-font u-font-merriweather u-text u-text-palette-2-base u-text-1">
+            Struggling with Anxiety?
+          </h2>
+          <details>
+            <summary>Know more</summary>
+            <blockquote className="u-align-center u-text u-text-grey-10 u-text-2">
+              Nine tenths of callers feel like they have been helped, half say
+              their problem was less severe at follow up.
+            </blockquote>
+            <div className="u-container-style u-group u-group-1">
+              <div className="u-container-layout">
+                <a
+                  href="https://nicepage.com/html-website-builder"
+                  className="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-white u-btn-1"
+                >
+                  <span className="u-icon">
+                    <svg
+                      className="u-svg-content"
+                      viewBox="0 0 405.333 405.333"
+                      x="0px"
+                      y="0px"
+                      styles="width: 1em; height: 1em;"
+                    >
+                      <path d="M373.333,266.88c-25.003,0-49.493-3.904-72.704-11.563c-11.328-3.904-24.192-0.896-31.637,6.699l-46.016,34.752    c-52.8-28.181-86.592-61.952-114.389-114.368l33.813-44.928c8.512-8.512,11.563-20.971,7.915-32.64    C142.592,81.472,138.667,56.96,138.667,32c0-17.643-14.357-32-32-32H32C14.357,0,0,14.357,0,32    c0,205.845,167.488,373.333,373.333,373.333c17.643,0,32-14.357,32-32V298.88C405.333,281.237,390.976,266.88,373.333,266.88z"></path>
+                    </svg>
+                  </span>
+                  &nbsp;+1 (234) 567-8910
+                </a>
+                <p className="u-align-center u-text u-text-default u-text-grey-10 u-text-3">
+                  Example helpline:<br></br>
+                </p>
+              </div>
+            </div>
+            <h2 className="u-align-center u-text u-text-grey-10 u-text-4">
+              Lifestyle changes<br></br>
+            </h2>
+          </details>
+
+
         <div className="u-clearfix u-sheet u-sheet-1">
           <h2 className="u-custom-font u-font-merriweather u-text u-text-default u-text-palette-2-base u-text-1">
             Reaching out

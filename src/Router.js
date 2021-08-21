@@ -9,7 +9,7 @@ function Routes() {
     <div>
       <Router>
         <div>
-          <nav>
+          {/* <nav>
             <ul>
               <li>
                 <Link to="/">Home</Link>
@@ -18,7 +18,7 @@ function Routes() {
                 <Link to="/about">About</Link>
               </li>
             </ul>
-          </nav>
+          </nav> */}
 
           <Switch>
             <Route path="/about">

@@ -21,7 +21,7 @@
                 "s3TemplateURL": "https://s3.amazonaws.com/amplify-govhack-dev-102147-deployment/amplify-cfn-templates/hosting/amplifyhosting-template.json",
                 "logicalId": "hostingamplifyhosting"
             },
-            "lastPushTimeStamp": "2021-08-21T09:00:55.728Z",
+            "lastPushTimeStamp": "2021-08-21T11:12:25.325Z",
             "output": {},
             "lastPushDirHash": "/+VZ33seFFqAr6wbtptwbINUfSA="
         }

@@ -8,6 +8,18 @@ export const Chart = ({ chartData, title, yTitle }) => {
         options={{
           responsive: true,
           scales: {
+            x: {
+              ticks: {
+                font: {
+                  family: "Verdana",
+                  size: 20,
+                  style: "normal",
+                  lineHeight: 1.2,
+                },
+                color: "#FFF",
+              },
+            },
+
             y: {
               grid: {
                 display: true,
