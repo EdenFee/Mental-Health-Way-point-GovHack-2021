@@ -3,6 +3,9 @@
 ### DEMO
 > App: https://dev.d37me77xm1k14c.amplifyapp.com/
 
+### Architecture
+![alt text](https://github.com/EdenFee/Mental-Health-Way-point-GovHack-2021/blob/main/architecture-gov-hack.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
