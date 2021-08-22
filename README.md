@@ -3,8 +3,13 @@
 ### DEMO
 > App: https://dev.d37me77xm1k14c.amplifyapp.com/
 
+### Lean Canvas
+![Lean Canvas](https://github.com/EdenFee/Mental-Health-Way-point-GovHack-2021/blob/main/Lean_Canvas.png)
+
 ### Architecture
-![alt text](https://github.com/EdenFee/Mental-Health-Way-point-GovHack-2021/blob/main/architecture-gov-hack.png)
+![Architecture](https://github.com/EdenFee/Mental-Health-Way-point-GovHack-2021/blob/main/architecture-gov-hack.png)
+
+
 
 ## Available Scripts
 
