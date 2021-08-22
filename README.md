@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Hackathon - Project Name!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### DEMO
+> App: https://dev.d37me77xm1k14c.amplifyapp.com/
 
 ## Available Scripts
 
