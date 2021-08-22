@@ -1,11 +1,75 @@
-# Getting Started with Create React App
+# Hackathon - Project Name!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### DEMO
+> App: https://dev.d37me77xm1k14c.amplifyapp.com/
 
-## Available Scripts
+### Lean Canvas
+![Lean Canvas](https://github.com/EdenFee/Mental-Health-Way-point-GovHack-2021/blob/main/Lean_Canvas.png)
 
-In the project directory, you can run:
+### Architecture
+![Architecture](https://github.com/EdenFee/Mental-Health-Way-point-GovHack-2021/blob/main/architecture-gov-hack.png)
 
+### DEV SETUP
+
+GIT Clone this repo and follow the below steps to setup the project.
+
+> Pre-requisites for installation
+
+Install Node.js® and NPM if they are not already on your machine.
+Verify that you are running at least Node.js version 10.x and npm version 6.x or greater by running node -v and npm -v in a terminal/console window
+
+> Create AWS Account. 
+
+If you don’t already have an AWS account, you’ll need to create one in order to follow the steps outlined in this tutorial.
+
+> Install Packages:
+```
+npm install
+```
+
+> Install the Amplify CLI
+
+The Amplify Command Line Interface (CLI) is a unified toolchain to create AWS cloud services for your app. Let’s go ahead and install the Amplify CLI.
+```
+npm install -g @aws-amplify/cli
+amplify configure --usage-data-off
+```
+
+> Configure Amplify by running the following command:
+```
+amplify configure
+```
+amplify configure will ask you to sign into the AWS Console.
+
+Once you’re signed in, Amplify CLI will ask you to create an IAM user.
+```
+Specify the AWS Region
+region:  # Your preferred region
+
+Specify the username of the new IAM user:
+user name:  # User name for Amplify IAM user
+```
+Complete the user creation using the AWS console
+
+> Create a user with AdministratorAccess to your account to provision AWS resources for you like AppSync, Cognito etc.
+
+Once the user is created, Amplify CLI will ask you to provide the accessKeyId and the secretAccessKey to connect Amplify CLI with your newly created IAM user.
+
+```
+Enter the access key of the newly created user:
+accessKeyId:  # YOUR_ACCESS_KEY_ID
+secretAccessKey:  # YOUR_SECRET_ACCESS_KEY
+This would update/create the AWS Profile in your local machine
+Profile Name:  # (default)
+```
+Successfully set up the new user.
+
+> Work within your frontend project:
+```
+amplify init
+```
+
+### Serve Locally
 ### `yarn start`
 
 Runs the app in the development mode.\
@@ -28,43 +92,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
